@@ -17,8 +17,6 @@
 <!-- <img src="`${Image5}?w=400&h=300&webp`" alt="test1" /> -->
 
 
-
-
 <picture>
 	<source srcset="{Image2}" type="image/avif">
 		<source srcset="{Image}" type="image/webp"> 
