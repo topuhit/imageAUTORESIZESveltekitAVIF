@@ -1,0 +1,2 @@
+# imageAUTORESIZESveltekitAVIF
+imageAUTORESIZESveltekitAVIF
