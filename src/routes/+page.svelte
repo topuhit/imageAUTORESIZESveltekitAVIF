@@ -20,19 +20,7 @@
 
 <h1>Vite Imagetool auto resize and avif, webp auto format images.</h1>
 
-<!-- <img src={Image} alt="test1" /> -->
-<!-- <img src="`${Image5}?w=400&h=300&webp`" alt="test1" /> -->
 
-
-<picture>
-	<source srcset="{Image2}" type="image/avif">
-	<source srcset="{Image}" type="image/webp"> 
-		<img src="{Image3}" alt="sdfsdf">
-	</picture>
-
-
-
-<br>
 	<picture>
 		<source srcset="{helloA} 1x,{helloAH} 2x" type="image/avif">
 		<source srcset="{hello1} 1x,{hello2} 2x" type="image/webp">
