@@ -7,6 +7,7 @@
 	import Image4 from '$lib/assets/1.jpg?w=400&h=300&webp'
 	import Image5 from '$lib/assets/1.jpg'
 	import ImageCom from '$lib/assets/1.jpg?width=400;800&format=avif;webp;jpg&metadata'
+	import ImageCom2 from '$lib/assets/1.jpg?width=400;600;800&format=avif;webp;jpg&metadata'
 
 	import helloA from '$lib/assets/1.jpg?w=400&h=300&avif'
 	import helloAH from '$lib/assets/1.jpg?w=800&h=600&avif'
@@ -15,12 +16,21 @@
 	import hello3 from '$lib/assets/1.jpg?w=400&h=300&jpg'
 	import hello4 from '$lib/assets/1.jpg?w=800&h=600&jpg'
 
-console.log(ImageCom)
+console.log(ImageCom2)
 
 </script>
 
 
 <h1>Vite Imagetool auto resize and avif, webp auto format images.</h1>
+
+	<picture>
+		<source srcset="{ImageCom2[0].src} 1x,{ImageCom2[3].src} 1.5x,{ImageCom2[6].src} 2x" type="image/avif">
+		<source srcset="{ImageCom2[1].src} 1x,{ImageCom2[4].src} 1.5x,{ImageCom2[7].src} 2x" type="image/webp">
+			
+		<img src="{ImageCom2[2].src}" srcset="{ImageCom2[2].src} 1x,{ImageCom2[5].src} 1.5x,{ImageCom2[8].src} 2x">
+	</picture>
+
+
 
 
 	<picture>
